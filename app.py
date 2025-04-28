@@ -1,6 +1,6 @@
 import streamlit as st
 import time
-from src.helper import get_pdf_text, get_text_chunks, get_vector_store, get_conversation_chain
+from helper import get_pdf_text, get_text_chunks, get_vector_store, get_conversation_chain
 
 
 def user_questions(user_input):
